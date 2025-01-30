@@ -10,5 +10,6 @@ Files posted:
 - the main code which loads the trained SVM and run it on a new/test image (Ped_Det_RUN.m)
 - the Non-Maximum Suppression for sliding windows (nms.m)
 - personal implementation of computing HOG Features (but not used for SVM training)
+- some images as an example of successful detections
 
 The entire code is written in Matlab.
