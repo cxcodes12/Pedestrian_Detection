@@ -5,10 +5,10 @@ Once the trained model is obtained, it is tested on negative images (without ped
 Finally, the model is evaluated using test images containing pedestrians in different environments and positions, employing the sliding window technique along with pyramid scaling for multi-scale detection.
 
 Files posted:
--INRIA Person Dataset used for training and testing
--the script for SVM training (svm_liniar_final_1206.m)
--the main code which loads the trained SVM and run it on a new/test image (Ped_Det_RUN.m)
--the Non-Maximum Suppression for sliding windows (nms.m)
--personal implementation of computing HOG Features (but not used for SVM training)
+- INRIA Person Dataset used for training and testing
+- the script for SVM training (svm_liniar_final_1206.m)
+- the main code which loads the trained SVM and run it on a new/test image (Ped_Det_RUN.m)
+- the Non-Maximum Suppression for sliding windows (nms.m)
+- personal implementation of computing HOG Features (but not used for SVM training)
 
 The entire code is written in Matlab.
